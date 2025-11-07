@@ -30,10 +30,3 @@ O app carregará o dataset `data/sales.csv`. Se existir `model_summary.pkl` e `m
 ## Observações
 - Certifique-se de que `sales.csv` está em `data/` com o formato descrito no notebook.
 - O app replica a engenharia de atributos e o split temporal (70/15/15) do notebook para análises.
-
-## Critérios e Comunicação (guia para apresentação)
-- Faça a EDA com atenção a dados faltantes e outliers (o app já apresenta um sumário em Qualidade dos Dados).
-- Avalie múltiplos algoritmos e compare com uma métrica alvo (o app exibe comparador Baseline vs Vencedor).
-- Métricas adotadas: MAE, RMSE, MAPE, R². Escolha motivada por interpretabilidade (MAE/MAPE), penalização de grandes erros (RMSE) e poder explicativo (R²).
-- Justifique a escolha do modelo vencedor relacionando teoria (capacidade de capturar não linearidades e interações) com os resultados.
-- Na apresentação, priorize gráficos claros: série temporal, previsto vs real e resíduos no tempo, além de importâncias de features.

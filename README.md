@@ -14,7 +14,10 @@ Este projeto contém:
 pip install -r requirements.txt
 ```
 
-3) Execute o app Streamlit (Seria utilizado para apresentação):
+3) Rode o Notebook TODO!
+  Rodar o notebook garante que os arquivos pkl e o html para relatorio estejam disponíveis.
+
+4) Execute o app Streamlit (Seria utilizado para apresentação):
 
 ```bash
 streamlit run app.py

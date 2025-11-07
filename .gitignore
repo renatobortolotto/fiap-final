@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# Virtual envs
+venv/
+.env/
+.venv/
+
+# OS / Editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Artifacts / Models
+*.pkl
+profiling_report.html
+
+# Misc caches
+.cache/
+
+# Windows ADS / Zone identifiers (from downloads)
+data/*Zone.Identifier*
